@@ -76,7 +76,6 @@ public class Miprimerasimulacion {
 	        driver.findElement(By.id("back-to-products")).click();
 	        driver.findElement(By.id("item_3_title_link")).click();
 	        driver.findElement(By.id("add-to-cart")).click();
-	        driver.findElement(By.id("back-to-products")).click();
 	        driver.findElement(By.className("shopping_cart_link")).click();
 	        driver.findElement(By.id("checkout")).click();
 	        driver.findElement(By.id("first-name")).sendKeys("Eduardo");
@@ -140,7 +139,7 @@ public class Miprimerasimulacion {
 	        driver.findElement(By.id("item_3_title_link")).click();
 	        driver.findElement(By.id("add-to-cart")).click();
 	        driver.findElement(By.className("shopping_cart_link")).click();
-	        driver.findElement(By.id("checkout")).click();;
+	        driver.findElement(By.id("checkout")).click();
 	        driver.findElement(By.id("first-name")).sendKeys("Eduardo");
 	        driver.findElement(By.id("last-name")).sendKeys("Calvo");
 	        driver.findElement(By.id("postal-code")).sendKeys("75634");
